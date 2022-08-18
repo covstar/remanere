@@ -24,6 +24,11 @@ body{
     background-repeat: no-repeat;
     height: 100%;
 }
+label{
+    color: hsl(157, 100%, 15%);
+    font-weight: 600;
+    padding: 0 0 1rem;
+}
 main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
