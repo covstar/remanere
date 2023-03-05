@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remanere</title>
+    <title>Reliquus</title>
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css"
@@ -12,27 +12,83 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- css link  -->
+    <link rel="stylesheet" href="./public/output.css">
     <link rel="stylesheet" href="./src/styles.css">
-        <link rel="stylesheet" href="./public/output.css">
+
+
 </head>
-<body class="font-Lato">
-    <h2 class="text-5xl">REMANERE</h2>
-    <main>
-        <div class="heading">
+    
+        
+<body class="font-Open_sans relative bg-headImg bg-cover bg-no-repeat">
+    <div class="w-full h-full bg-blackhey -z-10 bg-opacity-50  absolute"></div>
 
-            <h1>
-              You Can Easily Check How Many Days, Weeks And Months Are Left In A Year.
-            </h1>
-
-
+    
+    <main class="md:pt-5% md:px-5% sm:pt-5% sm:px-2 sm:mb-15%">
+        <!-- heading  -->
+        <div class="md:mb-5% sm:mb-20% border-b pb-2 pl-1 rounded-md text-white">
+            <h1 class="md:text-7xl sm:text-5xl font-Lato font-bold">RELIQUUS</h1>
+            <p class="md:text-2xl sm:text-sm sm:pr-20% pt-1 sm:pt-2">
+                It's now easier to determine the remaining days, weeks, and months in a given year.
+            </p>
         </div>
+   
 
-        <div class="input">
-            <img src="images/background-mobile.jpg" alt="">
-            <label for="date">Click to input date:</label>
-            <input type="date" id="Date" value="2022-08-12">
-            <button>Check</button>
-            <p id="output"></p>
+        <div class="bg-white md:h-96 p-5% px-15% sm:px-4 sm:py-15% sm:mb-20%  flex rounded-sm">
+            <!-- <img src="images/background-mobile.jpg" alt=""> -->
+            <div>
+                <!-- label  -->
+                <div class="md:text-2xl mb-10">
+                    <label for="date">Select date <i class="fa-solid fa-angles-down text-maroon"></i></label>
+                </div>
+                <!-- input   -->
+                <input class="outline-1 outline outline-maroon px-3 py-1 rounded-md" type="date" id="Date" value="">
+                
+                <!-- check button  -->
+                <div class="mt-10">
+                    <button class="bg-blackhey px-8 py-2 text-white rounded-sm md:text-xl">Check</button>
+                </div>
+            </div>
+            
+            
+            <!-- date display  -->
+            <div class="ml-auto">
+                <ul class="md:flex gap-x-5 text-xl sm:text-base text-center">
+
+                    <!-- Year  -->
+                    <li class="sm:mb-4">
+                        <ul>
+                            <li class="border-b border-maroon pb-1">Year</li>
+                            <li class="text-sm text-maroon mt-2  sm:mt-1 font-bold" id="year"></li>
+                        </ul>
+                    </li>
+
+                    <!-- Days  -->
+                    <li class="sm:mb-4">
+                        <ul>
+                            <li class="border-b border-maroon pb-1">Days Remaining</li>
+                            <li class="text-sm text-maroon mt-2 sm:mt-1 font-bold" id="day"></li>
+                        </ul>
+                    </li>
+
+                    <!-- Weeks  -->
+                    <li class="sm:mb-4">
+                        <ul>
+                            <li class="border-b border-maroon pb-1">Weeks Remaining</li>
+                            <li class="text-sm text-maroon mt-2 sm:mt-1 font-bold" id="week"></li>
+                        </ul>
+                    </li>
+
+                    <!-- month  -->
+                    <li class="sm:mb-4">
+                        <ul>
+                            <li class="border-b border-maroon pb-1">Months Remaining</li>
+                            <li class="text-sm text-maroon mt-2 font-bold" id="month"></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            
             
         </div>
 
@@ -47,10 +103,20 @@
 </body>
 
 <footer>
-    <div>
-        <p class="attribution">Copyright &#169; 2022. All Right Reserved. Built By <a
-                href="https://www.frontendmentor.io/profile/covstar" target="_blank"> Covstar&#9829;</a>
+    <div class="mt-5% bg-blackhey p-2% sm:py-6 font-Lato md:flex sm:text-center">
+        <p class="text-gray-400 sm:text-sm">Copyright &#169; 2023. All Right Reserved. Designed by <a class="hover:text-maroon" href="https://covstar.github.io/Portfolio" target="_blank"> covstar <i class="fa-solid fa-heart text-maroon"></i></a>
         </p>
+        
+        <ul class="flex gap-x-5 text-2xl text-maroon ml-auto sm:mt-10 sm:justify-center">
+        
+            <li class="hover:text-grey"><a href="https://github.com/covstar"><i class="fa-brands fa-github"></i></a></li>
+            <li class="hover:text-grey"><a href="https://instagram.com/okechukwuvictor"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+            <li class="hover:text-grey"><a href="https://twitter.com/covstar_"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="hover:text-grey"><a href="https://discord.com/channels/@me"><i class="fa-brands fa-discord"></i></a></li>
+            <li class="hover:text-grey"><a href="https://linkedin.com/in/okechukwu-victor"><i
+                        class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
     </div>
 </footer>
 </html>

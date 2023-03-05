@@ -31,6 +31,7 @@ module.exports = {
         black: '0 3px 2px rgb(0, 0, 0)',
       },
       padding: {
+        '2%': '2%',
         '3%': '3%',
         '5%': '5%',
         '10%': '10%',
@@ -76,7 +77,7 @@ module.exports = {
       },
       backgroundImage: {
         img: "url('../images/bg-pattern.svg')",
-        headImg: "url('https://covstar.sirv.com/Portfolio_imgs/M_project.jpg')",
+        headImg: "url('https://covstar.sirv.com/Portfolio_imgs/M_contact.jpg')",
       },
     },
   },

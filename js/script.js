@@ -22,8 +22,11 @@ const TotalMonths = 12;
         let Weeks = ((Days_remaining * TotalWeeks) / TotalDays);
         let Weeks_remaining = Math.round(Weeks);
         let months_remaining = (TotalMonths - month[0]);
-        $("#output").html("Year " + yearValue + ", Number Of:" + "<br>" + "Days Remaining = " + Days_remaining + "days" + "<br>" + "Weeks Remaining = " + Weeks_remaining + "weeks" + "<br>" + "Months Remaining = " + months_remaining + "months");
-        $("#output").fadeIn(300);
+        $("#year").html(yearValue);
+          $("#day").html(Days_remaining + " days");
+          $("#week").html(Weeks_remaining + " weeks");
+          $("#month").html(months_remaining + " months")
+          $("#year, #day, #week, #month").fadeIn(300);
       }
    
 
@@ -33,8 +36,11 @@ const TotalMonths = 12;
           let Weeks = ((Days_remaining * TotalWeeks) / TotalDays);
           let Weeks_remaining = Math.round(Weeks);
           let months_remaining = (TotalMonths - month[1]);
-        $("#output").html("Year " + yearValue + ", Number Of:" + "<br>" + "Days Remaining = " + Days_remaining + "days" + "<br>" + "Weeks Remaining = " + Weeks_remaining + "weeks" + "<br>" + "Months Remaining = " + months_remaining + "months");
-        $("#output").fadeIn(300);
+        $("#year").html(yearValue);
+          $("#day").html(Days_remaining + " days");
+          $("#week").html(Weeks_remaining + " weeks");
+          $("#month").html(months_remaining + " months")
+          $("#year, #day, #week, #month").fadeIn(300);
       } 
 
       //   For march
@@ -43,8 +49,11 @@ const TotalMonths = 12;
           let Weeks = ((Days_remaining * TotalWeeks) / TotalDays);
           let Weeks_remaining = Math.round(Weeks);
           let months_remaining = (TotalMonths - month[2]);
-        $("#output").html("Year " + yearValue + ", Number Of:" + "<br>" + "Days Remaining = " + Days_remaining + "days" + "<br>" + "Weeks Remaining = " + Weeks_remaining + "weeks" + "<br>" + "Months Remaining = " + months_remaining + "months");
-        $("#output").fadeIn(300);
+          $("#year").html(yearValue);
+          $("#day").html(Days_remaining + " days");
+          $("#week").html(Weeks_remaining + " weeks");
+          $("#month").html(months_remaining + " months")
+          $('#year, #day, #week, #month').fadeIn(300);
       } 
 
       //   For April
@@ -53,8 +62,11 @@ const TotalMonths = 12;
           let Weeks = ((Days_remaining * TotalWeeks) / TotalDays);
           let Weeks_remaining = Math.round(Weeks);
           let months_remaining = (TotalMonths - month[3]);
-       $("#output").html("Year " + yearValue + ", Number Of:" + "<br>" + "Days Remaining = " + Days_remaining + "days" + "<br>" + "Weeks Remaining = " + Weeks_remaining + "weeks" + "<br>" + "Months Remaining = " + months_remaining + "months");
-       $("#output").fadeIn(300);
+       $("#year").html(yearValue);
+          $("#day").html(Days_remaining + " days");
+          $("#week").html(Weeks_remaining + " weeks");
+          $("#month").html(months_remaining + " months")
+          $("#year, #day, #week, #month").fadeIn(300);
       } 
 
       //   For May
@@ -63,8 +75,11 @@ const TotalMonths = 12;
           let Weeks = ((Days_remaining * TotalWeeks) / TotalDays);
           let Weeks_remaining = Math.round(Weeks);
           let months_remaining = (TotalMonths - month[4]);
-        $("#output").html("Year " + yearValue + ", Number Of:" + "<br>" + "Days Remaining = " + Days_remaining + "days" + "<br>" + "Weeks Remaining = " + Weeks_remaining + "weeks" + "<br>" + "Months Remaining = " + months_remaining + "months");
-        $("#output").fadeIn(300);
+        $("#year").html(yearValue);
+          $("#day").html(Days_remaining + " days");
+          $("#week").html(Weeks_remaining + " weeks");
+          $("#month").html(months_remaining + " months")
+          $("#year, #day, #week, #month").fadeIn(300);
       } 
 
       //   For June
@@ -73,8 +88,11 @@ const TotalMonths = 12;
           let Weeks = ((Days_remaining * TotalWeeks) / TotalDays);
           let Weeks_remaining = Math.round(Weeks);
           let months_remaining = (TotalMonths - month[5]);
-        $("#output").html("Year " + yearValue + ", Number Of:" + "<br>" + "Days Remaining = " + Days_remaining + "days" + "<br>" + "Weeks Remaining = " + Weeks_remaining + "weeks" + "<br>" + "Months Remaining = " + months_remaining + "months");
-        $("#output").fadeIn(300);
+        $("#year").html(yearValue);
+          $("#day").html(Days_remaining + " days");
+          $("#week").html(Weeks_remaining + " weeks");
+          $("#month").html(months_remaining + " months")
+          $("#year, #day, #week, #month").fadeIn(300);
       } 
 
       //   For July
@@ -83,8 +101,11 @@ const TotalMonths = 12;
           let Weeks = ((Days_remaining * TotalWeeks) / TotalDays);
           let Weeks_remaining = Math.round(Weeks);
           let months_remaining = (TotalMonths - month[6]);
-       $("#output").html("Year " + yearValue + ", Number Of:" + "<br>" + "Days Remaining = " + Days_remaining + "days" + "<br>" + "Weeks Remaining = " + Weeks_remaining + "weeks" + "<br>" + "Months Remaining = " + months_remaining + "months");
-       $("#output").fadeIn(300);
+       $("#year").html(yearValue);
+          $("#day").html(Days_remaining + " days");
+          $("#week").html(Weeks_remaining + " weeks");
+          $("#month").html(months_remaining + " months")
+          $("#year, #day, #week, #month").fadeIn(300);
       }
 
       //   For August
@@ -93,8 +114,11 @@ const TotalMonths = 12;
           let Weeks = ((Days_remaining * TotalWeeks) / TotalDays);
           let Weeks_remaining = Math.round(Weeks);
           let months_remaining = (TotalMonths - month[7]);
-        $("#output").html("Year " + yearValue + ", Number Of:" + "<br>" + "Days Remaining = " + Days_remaining + "days" + "<br>" + "Weeks Remaining = " + Weeks_remaining + "weeks" + "<br>" + "Months Remaining = " + months_remaining + "months");
-        $("#output").fadeIn(300);
+        $("#year").html(yearValue);
+          $("#day").html(Days_remaining + " days");
+          $("#week").html(Weeks_remaining + " weeks");
+          $("#month").html(months_remaining + " months")
+          $("#year, #day, #week, #month").fadeIn(300);
       }
 
       //   For September
@@ -103,8 +127,11 @@ const TotalMonths = 12;
           let Weeks = ((Days_remaining * TotalWeeks) / TotalDays);
           let Weeks_remaining = Math.round(Weeks);
           let months_remaining = (TotalMonths - month[8]);
-       $("#output").html("Year " + yearValue + ", Number Of:" + "<br>" + "Days Remaining = " + Days_remaining + "days" + "<br>" + "Weeks Remaining = " + Weeks_remaining + "weeks" + "<br>" + "Months Remaining = " + months_remaining + "months");
-       $("#output").fadeIn(300);
+       $("#year").html(yearValue);
+          $("#day").html(Days_remaining + " days");
+          $("#week").html(Weeks_remaining + " weeks");
+          $("#month").html(months_remaining + " months")
+          $("#year, #day, #week, #month").fadeIn(300);
        }
 
       //   For October
@@ -113,8 +140,11 @@ const TotalMonths = 12;
           let Weeks = ((Days_remaining * TotalWeeks) / TotalDays);
           let Weeks_remaining = Math.round(Weeks);
           let months_remaining = (TotalMonths - month[9]);
-        $("#output").html("Year " + yearValue + ", Number Of:" + "<br>" + "Days Remaining = " + Days_remaining + "days" + "<br>" + "Weeks Remaining = " + Weeks_remaining + "weeks" + "<br>" + "Months Remaining = " + months_remaining + "months");
-        $("#output").fadeIn(300);
+        $("#year").html(yearValue);
+          $("#day").html(Days_remaining + " days");
+          $("#week").html(Weeks_remaining + " weeks");
+          $("#month").html(months_remaining + " months")
+          $("#year, #day, #week, #month").fadeIn(300);
         }
 
       //   For November
@@ -123,8 +153,11 @@ const TotalMonths = 12;
           let Weeks = ((Days_remaining * TotalWeeks) / TotalDays);
           let Weeks_remaining = Math.round(Weeks);
           let months_remaining = (TotalMonths - month[10]);
-        $("#output").html("Year " + yearValue + ", Number Of:" + "<br>" + "Days Remaining = " + Days_remaining + "days" + "<br>" + "Weeks Remaining = " + Weeks_remaining + "weeks" + "<br>" + "Months Remaining = " + months_remaining + "months");
-        $("#output").fadeIn(300);
+        $("#year").html(yearValue);
+          $("#day").html(Days_remaining + " days");
+          $("#week").html(Weeks_remaining + " weeks");
+          $("#month").html(months_remaining + " months")
+          $("#year, #day, #week, #month").fadeIn(300);
         }
 
       //   For December
@@ -133,11 +166,14 @@ const TotalMonths = 12;
           let Weeks = ((Days_remaining * TotalWeeks) / TotalDays);
           let Weeks_remaining = Math.round(Weeks);
           let months_remaining = (TotalMonths - month[11]);
-       $("#output").html("Year " + yearValue + ", Number Of:" + "<br>" + "Days Remaining = " + Days_remaining + "days" + "<br>" + "Weeks Remaining = " + Weeks_remaining + "weeks" + "<br>" + "Months Remaining = " + months_remaining + "months");
-       $("#output").fadeIn(300);
+       $("#year").html(yearValue);
+          $("#day").html(Days_remaining + " days");
+          $("#week").html(Weeks_remaining + " weeks");
+          $("#month").html(months_remaining + " months")
+          $("#year, #day, #week, #month").fadeIn(300);
        }
        else {
-                  $('#output').html("");
+                  $('#year, #day, #week, #month').html("");
       }
     })
 })
