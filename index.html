@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Remanere</title>
 
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Barlow|Fraunces|Poppins|Roboto" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-    </style>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css"
+        integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- css link  -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./src/styles.css">
+        <link rel="stylesheet" href="./public/output.css">
 </head>
-<body>
-    <h2>REMANERE</h2>
+<body class="font-Lato">
+    <h2 class="text-5xl">REMANERE</h2>
     <main>
         <div class="heading">
 
@@ -33,9 +33,7 @@
             <input type="date" id="Date" value="2022-08-12">
             <button>Check</button>
             <p id="output"></p>
-            <p class="attribution">Copyright &#169; 2022. All Right Reserved. Built By <a
-                    href="https://www.frontendmentor.io/profile/covstar" target="_blank"> Covstar&#9829;</a>
-            </p>
+            
         </div>
 
         
@@ -43,8 +41,16 @@
     </main>
     
        
-    
-    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- scripts  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
+<footer>
+    <div>
+        <p class="attribution">Copyright &#169; 2022. All Right Reserved. Built By <a
+                href="https://www.frontendmentor.io/profile/covstar" target="_blank"> Covstar&#9829;</a>
+        </p>
+    </div>
+</footer>
 </html>
