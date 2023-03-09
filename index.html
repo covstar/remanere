@@ -35,7 +35,7 @@
 
         <div class="bg-white md:h-96 p-5% px-15% sm:px-4 sm:py-44 sm:mb-20%  flex rounded-sm">
             <!-- <img src="images/background-mobile.jpg" alt=""> -->
-            <div>
+            <div class="sm:my-auto">
                 <!-- label  -->
                 <div class="md:text-2xl mb-10">
                     <label for="date">Select date <i class="fa-solid fa-angles-down text-maroon"></i></label>
@@ -86,8 +86,43 @@
                         </ul>
                     </li>
 
+
+                </ul>
+
+
+                <!-- time display  -->
+                <ul class="md:flex gap-x-10 text-xl sm:text-base text-center md:mt-5% md:justify-center">
+                
+                    <!-- hours  -->
+                    <li class="sm:mb-4">
+                        <ul>
+                            <li class="border-b border-maroon pb-1">Hours</li>
+                            <li class="text-sm text-maroon mt-2 sm:mt-1 font-bold" id="hour"></li>
+                        </ul>
+                    </li>
+                
+                    <!-- minutes  -->
+                    <li class="sm:mb-4">
+                        <ul>
+                            <li class="border-b border-maroon pb-1">Minutes</li>
+                            <li class="text-sm text-maroon mt-2 sm:mt-1 font-bold" id="minute"></li>
+                        </ul>
+                    </li>
+                
+                    <!-- seconds  -->
+                    <li class="sm:mb-4">
+                        <ul>
+                            <li class="border-b border-maroon pb-1">Seconds</li>
+                            <li class="text-sm text-maroon mt-2 font-bold" id="second"></li>
+                        </ul>
+                    </li>
+                
+                
                 </ul>
             </div>
+
+            
+            
             
             
         </div>
